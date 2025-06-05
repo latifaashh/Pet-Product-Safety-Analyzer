@@ -1,0 +1,136 @@
+{
+  "dangerous_ingredients": {
+    "sodium_lauryl_sulfate": {
+      "aliases": ["sls", "sodium lauryl sulfate", "sodium dodecyl sulfate"],
+      "danger_level": "high",
+      "reason": "Dapat menyebabkan iritasi kulit dan mata pada hewan sensitif",
+      "animal_specific": {
+        "cats": "Sangat berbahaya - kulit kucing lebih sensitif",
+        "dogs": "Berbahaya untuk anjing dengan kulit sensitif",
+        "rabbits": "Tidak disarankan sama sekali"
+      }
+    },
+    "paraben": {
+      "aliases": ["methylparaben", "propylparaben", "butylparaben", "ethylparaben"],
+      "danger_level": "medium",
+      "reason": "Dapat menyebabkan gangguan hormonal dan reaksi alergi",
+      "animal_specific": {
+        "cats": "Berbahaya - sistem metabolisme kucing lebih sensitif",
+        "dogs": "Perlu perhatian khusus",
+        "birds": "Sangat berbahaya untuk burung"
+      }
+    },
+    "formaldehyde": {
+      "aliases": ["formalin", "methanal", "methylene oxide"],
+      "danger_level": "very_high",
+      "reason": "Karsinogen yang dapat menyebabkan kanker dan iritasi parah",
+      "animal_specific": {
+        "all": "Berbahaya untuk semua jenis hewan"
+      }
+    },
+    "triclosan": {
+      "aliases": ["triclocarban", "irgasan"],
+      "danger_level": "high",
+      "reason": "Dapat mengganggu sistem endokrin dan menyebabkan resistensi antibiotik",
+      "animal_specific": {
+        "cats": "Sangat berbahaya - kucing tidak dapat memetabolisme dengan baik",
+        "dogs": "Berbahaya dalam penggunaan jangka panjang"
+      }
+    },
+    "propylene_glycol": {
+      "aliases": ["1,2-propanediol", "propane-1,2-diol"],
+      "danger_level": "medium",
+      "reason": "Dapat menyebabkan iritasi kulit dan masalah pernapasan",
+      "animal_specific": {
+        "cats": "Sangat berbahaya - dapat menyebabkan anemia hemolitik",
+        "dogs": "Relatif aman dalam jumlah kecil"
+      }
+    },
+    "artificial_fragrance": {
+      "aliases": ["parfum", "fragrance", "synthetic fragrance"],
+      "danger_level": "medium",
+      "reason": "Dapat menyebabkan reaksi alergi dan masalah pernapasan",
+      "animal_specific": {
+        "cats": "Berbahaya - sistem pernapasan kucing sensitif",
+        "dogs": "Dapat menyebabkan alergi pada anjing sensitif",
+        "birds": "Sangat berbahaya untuk sistem pernapasan burung"
+      }
+    }
+  },
+  "safe_ingredients": {
+    "aloe_vera": {
+      "aliases": ["aloe barbadensis", "aloe gel"],
+      "safety_level": "very_safe",
+      "benefits": "Menenangkan kulit, anti-inflamasi, dan mempercepat penyembuhan",
+      "animal_specific": {
+        "all": "Aman untuk semua jenis hewan"
+      }
+    },
+    "coconut_oil": {
+      "aliases": ["cocos nucifera oil", "virgin coconut oil"],
+      "safety_level": "very_safe",
+      "benefits": "Melembabkan kulit, antibakteri alami, dan membuat bulu berkilau",
+      "animal_specific": {
+        "dogs": "Sangat baik untuk kesehatan kulit dan bulu",
+        "cats": "Aman dalam jumlah kecil"
+      }
+    },
+    "oatmeal": {
+      "aliases": ["colloidal oatmeal", "avena sativa", "oat extract"],
+      "safety_level": "very_safe",
+      "benefits": "Menenangkan kulit gatal dan iritasi, melembabkan",
+      "animal_specific": {
+        "dogs": "Sangat baik untuk anjing dengan kulit sensitif",
+        "cats": "Aman dan efektif"
+      }
+    },
+    "chamomile": {
+      "aliases": ["matricaria chamomilla", "german chamomile", "chamomile extract"],
+      "safety_level": "safe",
+      "benefits": "Anti-inflamasi, menenangkan, dan antibakteri ringan",
+      "animal_specific": {
+        "all": "Aman untuk semua hewan dalam konsentrasi rendah"
+      }
+    },
+    "vitamin_e": {
+      "aliases": ["tocopherol", "alpha-tocopherol", "mixed tocopherols"],
+      "safety_level": "very_safe",
+      "benefits": "Antioksidan kuat, melindungi kulit dari kerusakan",
+      "animal_specific": {
+        "all": "Sangat baik untuk semua jenis hewan"
+      }
+    },
+    "glycerin": {
+      "aliases": ["glycerol", "glycerine", "vegetable glycerin"],
+      "safety_level": "safe",
+      "benefits": "Humektan alami yang melembabkan kulit",
+      "animal_specific": {
+        "all": "Aman untuk semua hewan dalam konsentrasi yang tepat"
+      }
+    },
+    "jojoba_oil": {
+      "aliases": ["simmondsia chinensis", "jojoba seed oil"],
+      "safety_level": "very_safe",
+      "benefits": "Melembabkan tanpa menyumbat pori, mirip sebum alami",
+      "animal_specific": {
+        "all": "Sangat baik untuk semua jenis hewan"
+      }
+    },
+    "shea_butter": {
+      "aliases": ["butyrospermum parkii", "karite butter"],
+      "safety_level": "safe",
+      "benefits": "Melembabkan intensif dan anti-inflamasi",
+      "animal_specific": {
+        "dogs": "Sangat baik untuk kulit kering",
+        "cats": "Aman dalam jumlah kecil"
+      }
+    }
+  },
+  "animal_specific_warnings": {
+    "cats": {
+      "metabolism": "Kucing memiliki sistem metabolisme yang berbeda dan tidak dapat memproses banyak bahan kimia",
+      "skin_sensitivity": "Kulit kucing lebih tipis dan sensitif dibanding anjing",
+      "grooming": "Kucing sering menjilat bulu, sehingga bahan yang digunakan harus food-grade safe"
+    },
+    "dogs": {
+      "skin_types": "Anjing memil
